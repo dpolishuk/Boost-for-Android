@@ -192,11 +192,11 @@ case "$NDK_RN" in
 		TOOLSET=gcc-androidR8b
 		;;
 	8e|9*)
-		CXXPATH=$AndroidNDKRoot/toolchains/arm-linux-androideabi-4.6/prebuilt/$PlatformOS-x86/bin/arm-linux-androideabi-g++
+		CXXPATH=$AndroidNDKRoot/toolchains/arm-linux-androideabi-4.8/prebuilt/$PlatformOS-x86_64/bin/arm-linux-androideabi-g++
 		TOOLSET=gcc-androidR8e
 		;;
 	"8e (64-bit)")
-		CXXPATH=$AndroidNDKRoot/toolchains/arm-linux-androideabi-4.6/prebuilt/${PlatformOS}-x86_64/bin/arm-linux-androideabi-g++
+		CXXPATH=$AndroidNDKRoot/toolchains/arm-linux-androideabi-4.8/prebuilt/${PlatformOS}-x86_64/bin/arm-linux-androideabi-g++
 		TOOLSET=gcc-androidR8e
 		;;
 	*)
